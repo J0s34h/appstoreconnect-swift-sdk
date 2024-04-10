@@ -5,7 +5,7 @@ import Foundation
 
 public struct AppStoreVersionPhasedReleaseWithoutIncludesResponse: Codable {
 	/// AppStoreVersion
-	public var data: AppStoreVersion?
+	public var data: AppStoreVersionPhasedRelease
 	public var links: DocumentLinks
 
 	public init(data: AppStoreVersion, links: DocumentLinks) {
